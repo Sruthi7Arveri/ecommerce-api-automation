@@ -17,23 +17,25 @@ It is designed to validate REST APIs by covering positive and negative test scen
 ## 📂 Framework Structure
 
 api-automation-framework/
-│
+
 ├── config/  
 │   └── config.py              # Environment configurations (Base URL)
-│
+
 ├── utils/  
 │   └── api_client.py          # Reusable API client methods
-│
+
 ├── tests/  
 │   ├── test_products.py       # Product API test cases  
 │   ├── test_cart.py           # Cart API test cases  
 │   └── test_cart_negative.py  # Negative scenarios  
-│
+
 ├── reports/  
 │   └── api_report.html        # HTML execution report  
-│
+
 ├── conftest.py                # Pytest fixtures
+
 ├── requirements.txt           # Project dependencies
+
 └── README.md                  # Project documentation
 
 
