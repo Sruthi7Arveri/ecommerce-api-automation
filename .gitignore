@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# PyCharm / IDE
+.idea/
+
+# Reports (optional – keep or ignore based on preference)
+reports/
